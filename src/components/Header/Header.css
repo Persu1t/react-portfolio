@@ -1,0 +1,29 @@
+.mix-blend{
+    height: 8vh;
+    width: 6vw;
+    mix-blend-mode: multiply;
+    padding: 0;
+}
+
+@media only screen and (max-width: 992px) {
+    .mix-blend{
+        height: 12vh;
+        width: 10vw;
+        mix-blend-mode: multiply;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mix-blend{
+        height: 12vh;
+        width: 20vw;
+        mix-blend-mode: multiply;
+        padding: 0;
+    }
+}
+
+.flex-container{
+    width: 100%;
+    justify-content: end !important;
+}

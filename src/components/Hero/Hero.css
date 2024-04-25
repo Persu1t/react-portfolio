@@ -1,0 +1,33 @@
+.jumbo{
+  mix-blend-mode: multiply;
+}
+.job-title{
+  display: inline;
+  color: #3d3e94;
+  font-weight: bold;
+}
+
+.custom-btn{
+    background-color: #3d3e94;
+}
+
+.hero-image {
+  width: 22vw;
+  height: 22vw;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 992px) {
+  .hero-image {
+    width: 27vw;
+    height: 25vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-image {
+        width: 50vw;
+        height: 50vw;
+    }
+}
