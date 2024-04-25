@@ -69,7 +69,7 @@ const Contact = () => {
               type="text"
               className="form-control transperent-form"
               id="formGroupExampleInput"
-              placeholder="Example input placeholder"
+              placeholder="Enter your name here"
               required
               value={name}
               onChange={(e)=> setName(e.target.value)}
